@@ -26,7 +26,6 @@ function ageChecker() {
     else {
         window.location.href = "./failure.html";
     }
-
 }
 
 //function to redirect user
