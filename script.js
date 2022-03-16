@@ -18,12 +18,14 @@ console.log(button);
 // }
 
 function ageChecker() {
-    // const age = document.querySelector("#age").value; 
-    // console.log(age);
-    // if (age > 17) {
-        console.log('x');
-        document.querySelector("h1").style.color = "blue";
+    const age = document.querySelector("#age").value; 
+    console.log(age);
+    if (age > 17) {
         window.location.href = "./success.html";
+    }
+    else {
+        window.location.href = "./failure.html";
+    }
 
 }
 
