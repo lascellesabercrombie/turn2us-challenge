@@ -1,21 +1,7 @@
 const form = document.querySelector("form");
-const button = document.querySelector("button");
-console.log(form);
-console.log(button);
-// function to verify that age is 18 or older
+// const button = document.querySelector("button");
 
-// function ageChecker() {
-//     const todayDate = new Date();
-//     const formattedTodayDate = `${todayDate.getFullYear()}-${todayDate.getMonth() + 1}-${todayDate.getDate()}`;
-//     console.log(todayDate);
-//     console.log(formattedTodayDate);
-//     // const birthDate = document.querySelector("input").value;
-//     let birthDate = "2022-03-08"
-//     console.log(birthDate);
-//     const difference = Math.abs(todayDate - birthDate);
-//     console.log(difference);
-//     return difference;
-// }
+// function to redirect user based on age;
 
 function ageChecker() {
     const age = document.querySelector("#age").value; 
