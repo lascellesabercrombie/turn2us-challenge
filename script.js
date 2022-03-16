@@ -5,7 +5,6 @@ const form = document.querySelector("form");
 
 function ageChecker() {
     const age = document.querySelector("#age").value; 
-    console.log(age);
     if (age > 17) {
         window.location.href = "./eligible.html";
     }
@@ -14,9 +13,9 @@ function ageChecker() {
     }
 }
 
-//function to redirect user
+//Event Listener
 
-button.addEventListener("click", (e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
     ageChecker();
 }
