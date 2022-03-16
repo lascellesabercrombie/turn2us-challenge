@@ -1,0 +1,13 @@
+:root {
+    --main-background-color: white;
+    --main-text-color: black;
+    --secondary-color: rgb(231, 67, 1);
+    --tertiary-color: rgb(242, 242, 242);    
+    --main-font: 'General Sans',Helvetica,Arial,sans-serif;
+}
+
+* {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+}
